@@ -1,0 +1,82 @@
+/*
+Name: Julian Wilson
+Date Created: 12/16/2019
+Most Recent revision:
+*/
+
+body {
+    background-color: #fef9ff;
+    font-family: arial, verdana, sans-serif;
+    color: #0d1f2d;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Comic Sans MS';
+    color: #fef9ff;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Comic Sans MS';
+    background-color: #546a7b;
+    color: #fef9ff;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h7 {
+    font-size: 1.5em;
+    font-family: arial, verdana, sans-serif;
+    color: #fef9ff;
+    text-decoration: bold;
+    text-shadow: 3px 2px #0d1f2d;
+
+}
+
+nav {
+    border-top: 3px dashed #546a7b;
+    border-bottom: 3px dashed #546a7b;
+    margin-top: 4px;
+}
+
+.clear-float {
+    clear:both;
+}
+
+.right-content {
+    float:left;
+}
+
+
+nav a {
+    background-color: #544a7b;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    width: 100px;
+    float: left;
+}
+
+nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87;
+}
+
+nav a:active {
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #e4c3ad;
+}
